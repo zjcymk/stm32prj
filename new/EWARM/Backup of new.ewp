@@ -66,7 +66,7 @@
         </option>
         <option>
           <name>OGLastSavedByProductVersion</name>
-          <state>8.32.1.18618</state>
+          <state>8.50.1.24770</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -116,7 +116,7 @@
         </option>
         <option>
           <name>GBECoreSlave</name>
-          <version>26</version>
+          <version>28</version>
           <state>39</state>
         </option>
         <option>
@@ -133,17 +133,17 @@
         </option>
         <option>
           <name>CoreVariant</name>
-          <version>26</version>
+          <version>28</version>
           <state>39</state>
         </option>
         <option>
           <name>GFPUDeviceSlave</name>
-          <state>STM32F429IG	ST STM32F429IG</state>
+          <state></state>
         </option>
         <option>
           <name>FPU2</name>
           <version>0</version>
-          <state>4</state>
+          <state>6</state>
         </option>
         <option>
           <name>NrRegs</name>
@@ -156,7 +156,7 @@
         </option>
         <option>
           <name>GFPUCoreSlave2</name>
-          <version>26</version>
+          <version>28</version>
           <state>39</state>
         </option>
         <option>
@@ -198,7 +198,7 @@
         </option>
         <option>
           <name>DSPExtension</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>TrustZone</name>
@@ -215,9 +215,13 @@
       <name>ICCARM</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>35</version>
+        <version>36</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
+        <option>
+          <name>CCOptimizationNoSizeConstraints</name>
+          <state>0</state>
+        </option>
         <option>
           <name>CCDefines</name>
           <state>USE_HAL_DRIVER</state>
@@ -234,7 +238,7 @@
         </option>
         <option>
           <name>CCPreprocLine</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>CCListCFile</name>
@@ -367,16 +371,16 @@
         </option>
         <option>
           <name>CCOptLevel</name>
-          <state>1</state>
+          <state>3</state>
         </option>
         <option>
           <name>CCOptStrategy</name>
           <version>0</version>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>CCOptLevelSlave</name>
-          <state>1</state>
+          <state>3</state>
         </option>
         <option>
           <name>CompilerMisraRules98</name>
@@ -429,17 +433,13 @@
           <state>0</state>
         </option>
         <option>
-          <name>CCOptimizationNoSizeConstraints</name>
-          <state>0</state>
-        </option>
-        <option>
           <name>CCNoLiteralPool</name>
           <state>0</state>
         </option>
         <option>
           <name>CCOptStrategySlave</name>
           <version>0</version>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>CCGuardCalls</name>
@@ -472,6 +472,10 @@
         <option>
           <name>OICompilerExtraOption</name>
           <state>1</state>
+        </option>
+        <option>
+          <name>CCStackProtection</name>
+          <state>0</state>
         </option>
       </data>
     </settings>
@@ -605,7 +609,7 @@
         </option>
         <option>
           <name>AOutputFile</name>
-          <state>$FILE_BNAME$.o</state>
+          <state></state>
         </option>
         <option>
           <name>ALimitErrorsCheck</name>
@@ -693,9 +697,13 @@
       <name>ILINK</name>
       <archiveVersion>0</archiveVersion>
       <data>
-        <version>22</version>
+        <version>23</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
+        <option>
+          <name>IlinkOutputFile</name>
+          <state>new.out</state>
+        </option>
         <option>
           <name>IlinkLibIOConfig</name>
           <state>1</state>
@@ -707,10 +715,6 @@
         <option>
           <name>IlinkInputFileSlave</name>
           <state>0</state>
-        </option>
-        <option>
-          <name>IlinkOutputFile</name>
-          <state>new.out</state>
         </option>
         <option>
           <name>IlinkDebugInfoEnable</name>
@@ -770,11 +774,11 @@
         </option>
         <option>
           <name>IlinkIcfOverride</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>IlinkIcfFile</name>
-          <state>lnk0t.icf</state>
+          <state>$PROJ_DIR$/stm32f429xx_flash.icf</state>
         </option>
         <option>
           <name>IlinkIcfFileSlave</name>
@@ -834,7 +838,7 @@
         </option>
         <option>
           <name>IlinkProgramEntryLabel</name>
-          <state></state>
+          <state>__iar_program_start</state>
         </option>
         <option>
           <name>DoFill</name>
@@ -1007,11 +1011,27 @@
         </option>
         <option>
           <name>IlinkTrustzoneImportLibraryOut</name>
-          <state>###Unitialized###</state>
+          <state></state>
         </option>
         <option>
           <name>OILinkExtraOption</name>
           <state>1</state>
+        </option>
+        <option>
+          <name>IlinkRawBinaryFile2</name>
+          <state></state>
+        </option>
+        <option>
+          <name>IlinkRawBinarySymbol2</name>
+          <state></state>
+        </option>
+        <option>
+          <name>IlinkRawBinarySegment2</name>
+          <state></state>
+        </option>
+        <option>
+          <name>IlinkRawBinaryAlign2</name>
+          <state></state>
         </option>
       </data>
     </settings>
@@ -1052,7 +1072,7 @@
     <group>
       <name>EWARM</name>
       <file>
-        <name>$PROJ_DIR$\startup_stm32f429xx.s</name>
+        <name>$PROJ_DIR$/startup_stm32f429xx.s</name>
       </file>
     </group>
     <group>
@@ -1060,16 +1080,16 @@
       <group>
         <name>Core</name>
         <file>
-          <name>$PROJ_DIR$\..\Core\Src\main.c</name>
+          <name>$PROJ_DIR$/../Core/Src/main.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\Core\Src\gpio.c</name>
+          <name>$PROJ_DIR$/../Core/Src/gpio.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\Core\Src\stm32f4xx_it.c</name>
+          <name>$PROJ_DIR$/../Core/Src/stm32f4xx_it.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\Core\Src\stm32f4xx_hal_msp.c</name>
+          <name>$PROJ_DIR$/../Core/Src/stm32f4xx_hal_msp.c</name>
         </file>
       </group>
     </group>
@@ -1077,57 +1097,57 @@
   <group>
     <name>Drivers</name>
     <group>
-      <name>CMSIS</name>
+      <name>STM32F4xx_HAL_Driver</name>
       <file>
-        <name>$PROJ_DIR$\..\Core\Src\system_stm32f4xx.c</name>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c</name>
       </file>
     </group>
     <group>
-      <name>STM32F4xx_HAL_Driver</name>
+      <name>CMSIS</name>
       <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c</name>
+        <name>$PROJ_DIR$/../Core/Src/system_stm32f4xx.c</name>
       </file>
     </group>
   </group>
