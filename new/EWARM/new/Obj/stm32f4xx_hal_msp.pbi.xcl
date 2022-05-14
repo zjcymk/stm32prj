@@ -5,9 +5,37 @@
 -I
 C:\Users\Tom\Desktop\stm32\new\Core\Src
 -I
+C:\Users\Tom\Desktop\stm32\new\EWARM/../Core/Inc
+-I
+C:\Users\Tom\Desktop\stm32\new\EWARM/../Drivers/STM32F4xx_HAL_Driver/Inc
+-I
+C:\Users\Tom\Desktop\stm32\new\EWARM/../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+-I
+C:\Users\Tom\Desktop\stm32\new\EWARM/../Drivers/CMSIS/Device/ST/STM32F4xx/Include
+-I
+C:\Users\Tom\Desktop\stm32\new\EWARM/../Drivers/CMSIS/Include
+-I
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
+-I
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
+-I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc\c
+-I
+C:\Users\Tom\Desktop\stm32\new\Core\Inc
+-I
+C:\Users\Tom\Desktop\stm32\new\Drivers\STM32F4xx_HAL_Driver\Inc
+-I
+C:\Users\Tom\Desktop\stm32\new\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy
+-I
+C:\Users\Tom\Desktop\stm32\new\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-I
+C:\Users\Tom\Desktop\stm32\new\Drivers\CMSIS\Include
+-I
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
+-I
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -299,6 +327,9 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc\c
 -D__EDG_CPP11_IL_EXTENSIONS_SUPPORTED=1
 -D__EDG_FLOAT80_ENABLING_POSSIBLE=0
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
+-DUSE_HAL_DRIVER=1
+-DSTM32F429xx=1
+-DARM_MATH_CM4=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Config_Full.h"
 -D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Config_Full.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V8.32.1.169/W32 for ARM"

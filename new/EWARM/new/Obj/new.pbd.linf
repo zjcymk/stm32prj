@@ -1,9 +1,6 @@
 ﻿C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\new.pbd
 C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\gpio.pbi
 C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\main.pbi
-C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal_msp.pbi
-C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_it.pbi
-C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\system_stm32f4xx.pbi
 C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal.pbi
 C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal_cortex.pbi
 C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal_dma.pbi
@@ -13,9 +10,12 @@ C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal_flash.pbi
 C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal_flash_ex.pbi
 C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal_flash_ramfunc.pbi
 C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal_gpio.pbi
+C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal_msp.pbi
 C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal_pwr.pbi
 C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal_pwr_ex.pbi
 C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal_rcc.pbi
 C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal_rcc_ex.pbi
 C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal_tim.pbi
 C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_hal_tim_ex.pbi
+C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\stm32f4xx_it.pbi
+C:\Users\Tom\Desktop\stm32\new\EWARM\new\Obj\system_stm32f4xx.pbi
