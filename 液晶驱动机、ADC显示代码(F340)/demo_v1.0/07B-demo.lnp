@@ -1,0 +1,4 @@
+"flash_w.obj",
+"main.obj" 
+TO "07B-demo" 
+RAMSIZE(256) 
